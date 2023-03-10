@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Template All */
+
+.wrap-template {
+	width: 100%;
+	max-width: 760px;
+	min-height: 405px;
+	float: left;
+	clear: both;
+}
+.template-box {
+	width: 240px;
+	min-height: 350px;
+	float: left;
+	border: solid 1px #000000;
+	margin: 10px 0 10px 10px;
+	background-color: hsla(359,68%,83%,1.00);
+}
+.template-description {
+	float: left;
+	height: 100px;
+	width: 100%;
+	background-color: hsla(0,0%,0%,1.00);
+	position: relative;
+	top: 250px;
+	z-index: 1;
+}
+.template-bottom {
+	min-width: 90%;
+	float: left;
+	clear: both;
+	margin: 10px 10px;
+}
+.wrap-template .template-bottom a {
+	width: 200px;
+	height: 35px;
+	float: left;
+	text-align: center;
+	background-color: hsla(0,100%,50%,1.00);
+	color: hsla(0,0%,100%,1.00);
+	font-size: 22px;
+	text-decoration: none;
+}
+.template-bottom a:hover {
+	background-color: hsla(0,0%,0%,1.00);
+	color: hsla(0,0%,100%,1.00);
+}
+.template-bottom a:visited {
+	color: hsla(0,0%,100%,1.00);
+}
+.template-body {
+	width: 100%;
+	max-width: 1024px;
+	height: auto;
+	float: left;
+	clear: both;
+}
+.template-left {
+	max-width: 760px;
+	height: auto;
+	float: left;
+}
+.template-right {
+	max-width: 244px;
+	height: auto;
+	float: left;
+	padding: 10px;
+}
+.template-right ul {
+	margin: 0px;
+}
+.template-right ul li {
+	list-style-image: url(../img/ulside.png);
+}
+.template-right ul li a {
+	text-decoration: none;
+	color: #000000;
+}
+.template-right ul li a:visited {
+	color: black;
+}
+.template-right ul li a:hover {
+	text-decoration: underline;
+}
